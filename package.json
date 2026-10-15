@@ -1,0 +1,19 @@
+{
+  "name": "teague-time",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "eval": "vitest run tests/eval.test.ts --silent=false"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^3.0.0",
+    "@types/chrome": "^0.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^6.4.4",
+    "vitest": "^5.0.5"
+  }
+}
